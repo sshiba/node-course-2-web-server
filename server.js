@@ -38,7 +38,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
     res.render('home.hbs', {
         pageTitle: 'Home Page',
-        welcomeText: 'Welcome to my first dynamic website using HBS'
+        welcomeText: 'Welcome to my first dynamic website using HBS and Heroku'
     });
 });
 
